@@ -138,9 +138,8 @@ p  { margin: 0 0 1rem; }
   object-fit: contain;
 }
 @media (max-width: 720px) {
-  .brand-logo { height: 60px; max-width: 240px; }
-  .site-header .container { padding: 0 clamp(36px, 8vw, 60px); }
-  .site-header .nav { padding: 22px 0; }
+  .brand-logo { height: 50px; max-width: 200px; }
+  .site-header .container.nav { padding: 18px clamp(20px, 6vw, 48px); }
 }
 .site-footer .brand-logo { height: 72px; max-width: 260px; }
 /* Legacy classes kept so old markup still works gracefully */
