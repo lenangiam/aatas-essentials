@@ -140,6 +140,7 @@ p  { margin: 0 0 1rem; }
 @media (max-width: 720px) {
   .brand-logo { height: 60px; max-width: 240px; }
   .site-header .container { padding: 0 32px; }
+  .site-header .nav { padding: 22px 0; }
 }
 .site-footer .brand-logo { height: 72px; max-width: 260px; }
 /* Legacy classes kept so old markup still works gracefully */
@@ -979,10 +980,11 @@ p  { margin: 0 0 1rem; }
   content: ""; position: absolute; right: -40px; top: -40px;
   width: 260px; height: 260px; border-radius: 50%;
   background: rgba(255,255,255,0.08);
+  pointer-events: none;
 }
 .cta-banner h2 { color: var(--white); font-size: clamp(1.6rem, 3vw, 2.4rem); }
 .cta-banner p { color: rgba(255,255,255,0.92); max-width: 48ch; }
-.cta-banner .btn-primary { background: var(--brown); box-shadow: 0 4px 0 var(--brown-deep); }
+.cta-banner .btn-primary { background: var(--brown); box-shadow: 0 4px 0 var(--brown-deep); position: relative; z-index: 1; }
 
 /* ---- Responsive ---- */
 @media (max-width: 960px) {
