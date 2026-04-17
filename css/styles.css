@@ -139,7 +139,7 @@ p  { margin: 0 0 1rem; }
 }
 @media (max-width: 720px) {
   .brand-logo { height: 60px; max-width: 240px; }
-  .site-header .container { padding: 0 32px; }
+  .site-header .container { padding: 0 42px; }
   .site-header .nav { padding: 22px 0; }
 }
 .site-footer .brand-logo { height: 72px; max-width: 260px; }
