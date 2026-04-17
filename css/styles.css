@@ -139,6 +139,7 @@ p  { margin: 0 0 1rem; }
 }
 @media (max-width: 720px) {
   .brand-logo { height: 60px; max-width: 240px; }
+  .site-header .container { padding: 0 32px; }
 }
 .site-footer .brand-logo { height: 72px; max-width: 260px; }
 /* Legacy classes kept so old markup still works gracefully */
@@ -1005,13 +1006,13 @@ p  { margin: 0 0 1rem; }
     position: absolute; top: 100%; left: 0; right: 0;
     flex-direction: column; align-items: stretch;
     background: var(--orange);
-    padding: 10px 20px 20px;
-    border-bottom: 3px solid var(--yellow);
+    padding: 0 20px;
+    border-bottom: none;
     gap: 4px;
     max-height: 0; overflow: hidden;
     transition: max-height 0.25s ease, padding 0.25s ease;
   }
-  .nav-links.is-open { max-height: 500px; padding-top: 10px; }
+  .nav-links.is-open { max-height: 500px; padding: 10px 20px 20px; border-bottom: 3px solid var(--yellow); }
   .nav-links a { width: 100%; }
   .nav-cta { align-self: flex-start; }
 }
